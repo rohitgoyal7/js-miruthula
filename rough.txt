@@ -1,0 +1,24 @@
+Branden Eich
+
+Netscape ----- Navigator ----- LiveScript
+MS ----------- IE        ----- JScript
+
+
+var a; // Navigator
+const a; // IE
+
+
+if(browser  === "navigator"){
+    var a;
+}
+else{
+    const a;
+}
+
+
+ECMA Communitee   - JavaScript
+
+
+ES5   ---  2009
+ES6   ---- 2015
+ES11 ---- June 2020
