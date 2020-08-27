@@ -7,7 +7,6 @@ MS ----------- IE        ----- JScript
 var a; // Navigator
 const a; // IE
 
-
 if(browser  === "navigator"){
     var a;
 }
@@ -15,10 +14,17 @@ else{
     const a;
 }
 
-
 ECMA Communitee   - JavaScript
-
 
 ES5   ---  2009
 ES6   ---- 2015
 ES11 ---- June 2020
+
+
+
+JS - Single Threaded language
+
+Type Script ----- JS + strongly typed
+
+ES(100) ----- JS(90)
+ES(100) ----- TS(91)
