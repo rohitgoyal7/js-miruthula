@@ -28,3 +28,11 @@ Type Script ----- JS + strongly typed
 
 ES(100) ----- JS(90)
 ES(100) ----- TS(91)
+
+
+primitive data types  - does nt have any method
+non-primitive data types - object-  have few methods
+
+
+// initialization phase
+// execute a piece phase
