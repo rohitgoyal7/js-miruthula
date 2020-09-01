@@ -74,4 +74,4 @@ var a = 10;
  * write a function which returns random integer from 1 to 10
  */
 
-Math.ceil(Math.random() * 10); // 0-10(0 inclusive and 10 exclusive)
+Math.ceil(Math.random() * 10); // 0-10(0 inclusive and 10 exclusive)   -- (1 -10)

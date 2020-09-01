@@ -36,3 +36,15 @@ non-primitive data types - object-  have few methods
 
 // initialization phase
 // execute a piece phase
+
+
+!function scope ------ global scope     ---- only applicable if we have declared using a var keyword
+
+var ---- function scope and global scope
+let --- block scope, function scope and global scope 
+const --- block scope, function scope and global scope 
+
+
+var a=10;
+let a=10;
+const a=10;

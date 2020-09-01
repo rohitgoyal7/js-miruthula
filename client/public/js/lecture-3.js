@@ -7,13 +7,10 @@
  */
 
 /*********************************************************** */
-// console.log(a); // undefined
+// console.log(a);
 // var a = 1;
 
-// //initialization phase ---- creation phase
-// var a;
-// console.log(a);
-// a = 1;
+//initialization phase ---- creation phase
 
 /*********************************************************** */
 
@@ -25,13 +22,7 @@
 // fn();
 
 // initialization phase
-// function fn() {
-//     var a;
-//     console.log(a);
-//     a = 2;
-//     console.log(a);
-// }
-// fn();
+
 /************************************************************* */
 
 // function fn() {
@@ -41,12 +32,6 @@
 // fn();
 
 // //initialization phsae
-// function fn() {
-//     let a;
-//     console.log(a); // can not access this variable over here.....
-//     a = 2;
-// }
-// fn();
 
 /************************************************************* */
 
@@ -55,22 +40,7 @@
 //     console.log("hii");
 // }
 
-// // initialization phsae
-// function fn() {
-//     console.log("hii");
-// }
-// fn();
-
-/************************************************************* */
-
-// function fn1() {
-//     console.log("1");
-//     fn2();
-// }
-// fn1();
-// function fn2() {
-//     console.log("2");
-// }
+// initialization phsae
 
 /************************************************************* */
 // bar();
@@ -82,7 +52,7 @@
 //     console.log("byeee");
 // };
 
-// // initialization phase
+// initialization phase
 // var foo;
 // function bar() {
 //     console.log("hiii");
@@ -96,7 +66,6 @@
 /************************************************************* */
 
 // function fn() {
-//     // var a; -- initialization phase
 //     console.log(a);
 //     var a = 2;
 // }
@@ -105,7 +74,6 @@
 /************************************************************* */
 
 // function fn() {
-//     // let a; -- initialization phase
 //     let a = 2;
 //     if (true) {
 //         // let a; -- initialization phase
@@ -179,35 +147,4 @@
 //     const bar = 4;
 // }
 // console.log(foo);
-// console.log(bar); // 1 error
-
-/**
- * PRACTICE QUESTION - 5
- */
-// var i = 5;
-
-// for (var i = 0; i < 10; i++) {
-//     // do anything
-// }
-// console.log(i); // 5
-
-/**
- * PRACTICE QUESTION - 6
- */
-
-// var j = 5;
-// for (let j = 0; j < 10; j++) {
-//     // do anything
-// }
-// console.log(j); // 5
-
-// var a = 1;
-// function fn() {
-//     // let a; // error because of line #210
-//     let a;
-//     a = 10;
-//     return;
-//     let a;
-// }
-// fn();
-// console.log(a);
+// console.log(bar);
