@@ -104,22 +104,6 @@ in order to compare, we need to have LHS and RHS with the same data type
  * TYPEOF
  */
 
-typeof 1;
-typeof null; // "object"
-typeof function () {}; // "function"
-
-//Object.prototype.toString.call(null) ----
-
 /**
  * NaN
  */
-
-2 / 1;
-2 / 0;
-0 / 0; // NaN
-// typeof NaN ---> number
-
-// how can you tell whether the value is NaN or not
-// var a=NaN
-
-// a==a // false

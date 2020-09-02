@@ -48,3 +48,8 @@ const --- block scope, function scope and global scope
 var a=10;
 let a=10;
 const a=10;
+
+
+hoising with var ------ hoisting happens, and we can access the value, but the value will be undefined
+hoising with let/const ------ hoisting happens, and we can not access the value
+functions - hoising happens, and we can use the function with the actual defined
