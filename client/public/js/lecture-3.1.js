@@ -1,11 +1,11 @@
 /************************************************************* */
 
 // function fn() {
+//     // let a; // initialization phase
+//     console.log(a);
 //     let a = 2;
 //     if (true) {
-//         // let a; -- initialization phase
 //         console.log(a); // 2
-//         // let a = 3;
 //     }
 // }
 // fn();
@@ -18,19 +18,19 @@
 
 // var a = 1;
 // function b() {
-//     a = 10;
+//     a = 10; // re-assignment
 // }
 // b();
-// console.log(a);
+// console.log(a); // 10
 
 /**
  * PRACTICE QUESTION - 2
  */
-// var foo = 1;
-// {
-//     let foo = 2;
-//     foo = 3;
-//     const bar = 4;
-// }
-// console.log(foo);
-// console.log(bar);
+var foo = 1; // global
+{
+    let foo = 2; // local
+    foo = 3; // re-assignment
+    var bar = 4; // local
+}
+console.log(foo); //  1
+console.log(bar); // error
